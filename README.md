@@ -1,4 +1,4 @@
-# Smart-Temperature-Adjustment-System-via-Random-Forest
+# AIoT-WearOS-Climate-Control
 
 ## Project Overview (프로젝트 개요)
 
@@ -69,14 +69,11 @@ WearOS 센서 특성상 움직임에 의한 노이즈(Motion Artifact)가 발생
 ### Installation
 1. Clone the repository
 ```Bash
-git clone https://github.com/your-username/Smart-Temperature-Adjustment-System-via-Random-Forest.git
+git clone https://github.com/cnvxlns/AIoT-WearOS-Climate-Control
 ```
 2. Open the project in Android Studio.
 3. Sync Gradle and run the wear module on your watch/emulator.
 4. Run the mobile module on your phone.
-
-## Background
-학교나 공공기관에서는 중앙 제어를 통해 에너지를 절약하지만, 이는 개별 사용자의 컨디션을 반영하지 못해 불쾌감을 유발하거나 효율이 떨어지는 문제가 있습니다. 본 프로젝트는 "에너지 절약"과 "사용자 만족도(Thermal Comfort)"라는 두 가지 상충되는 목표를 머신러닝을 통해 최적화하는 알고리즘을 제안합니다.
 
 ## Future Works
  - On-device Training 구현 (사용자 피드백을 실시간으로 학습)
