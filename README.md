@@ -1,4 +1,4 @@
-# Smart-Temperature-Adjustment-System-via-Random-Forest
+# AIoT-WearOS-Climate-Control
 
 ## Project Overview (프로젝트 개요)
 
