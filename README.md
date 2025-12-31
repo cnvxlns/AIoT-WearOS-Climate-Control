@@ -12,7 +12,7 @@
 
 ## System Architecture (시스템 구조)
 <pre>
-  ```mermaid
+```mermaid
   graph LR
     subgraph Wearable [Galaxy Watch (WearOS)]
         A[Bio Sensors] --&gt;|Raw Data| B(Signal Processing)
@@ -25,7 +25,7 @@
         D --&gt; F{Random Forest Model}
         F --&gt;|Prediction| G[Actuator / Notification]
     end
-  ```
+```
 </pre>
 
 1. Data Collection (WearOS)
