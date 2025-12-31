@@ -11,22 +11,19 @@
  - Engineering Depth: 신호 처리 이론을 적용한 노이즈 캔슬링 및 데이터 효율화
 
 ## System Architecture (시스템 구조)
-<pre>
 ```mermaid
-  graph LR
-    subgraph Wearable [Galaxy Watch (WearOS)]
-        A[Bio Sensors] --&gt;|Raw Data| B(Signal Processing)
-        B --&gt;|Filtered Data| C[Data Layer API]
-    end
-
-    subgraph Mobile [Smartphone (Android)]
-        C --&gt; D[Feature Engineering]
-        E[Weather API] --&gt; D
-        D --&gt; F{Random Forest Model}
-        F --&gt;|Prediction| G[Actuator / Notification]
-    end
+graph LR
+subgraph Wearable ["Galaxy Watch (WearOS)"]
+A[Bio Sensors] -->|Raw Data| B(Signal Processing)
+B -->|Filtered Data| C[Data Layer API]
+end
+subgraph Mobile ["Smartphone (Android)"]
+C --> D[Feature Engineering]
+E[Weather API] --> D
+D --> F{Random Forest Model}
+F -->|Prediction| G[Actuator / Notification]
+end
 ```
-</pre>
 
 1. Data Collection (WearOS)
    Heart Rate: 광혈류 측정 센서(PPG)를 통해 실시간 심박수 수집
