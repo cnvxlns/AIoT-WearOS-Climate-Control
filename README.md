@@ -69,7 +69,7 @@ WearOS 센서 특성상 움직임에 의한 노이즈(Motion Artifact)가 발생
 ### Installation
 1. Clone the repository
 ```Bash
-git clone https://github.com/your-username/Smart-Temperature-Adjustment-System-via-Random-Forest.git
+git clone https://github.com/cnvxlns/AIoT-WearOS-Climate-Control
 ```
 2. Open the project in Android Studio.
 3. Sync Gradle and run the wear module on your watch/emulator.
