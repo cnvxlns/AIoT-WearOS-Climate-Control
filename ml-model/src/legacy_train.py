@@ -1,5 +1,4 @@
-import serial
-import numpy as np             
+import numpy as np
 from numpy import array
 import pandas as pd
 from sklearn.model_selection import train_test_split
