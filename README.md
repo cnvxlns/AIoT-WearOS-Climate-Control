@@ -1,4 +1,4 @@
-# AIoT-WearOS-Climate-Control
+# AIoT-WearOS-Climate-Control(In Progress...)
 
 ## Project Overview (프로젝트 개요)
 
